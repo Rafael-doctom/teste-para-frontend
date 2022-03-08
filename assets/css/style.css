@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+}
+
+.navbar{
+    background-color: var(--bgNavbar);
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    color: var(--bgListItem);
+}
+
+.listSocialNetworks{
+    display: flex;
+}
+
+.listItem{
+    margin: 0 1rem;
+    background-color: var(--bgListItem);
+    padding: 0.6rem;
+    border: 0;
+    border-radius: 5px;
+    color: #00acee;
+    font-size: 0.90rem;
+}
+
+.listItem:first-child{
+    color: #2980B9;
+}
+
+.fa{
+    padding-right: 0.2rem;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Helvetica, Sans-Serif;
+}
+
+:root {
+    --bgNavbar: #3498DB;
+    --bgListItem: #ECF0F1;
+}
+
+ul, li, a{
+    list-style:none;
+    text-decoration: none;
+    text-transform: none;
+}
