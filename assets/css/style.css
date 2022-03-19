@@ -2,6 +2,7 @@
     width: 100%;
 }
 
+/* navbar */
 .navbar{
     background-color: var(--bgNavbar);
     display: flex;
@@ -37,4 +38,47 @@
 
 .fa{
     padding-right: 0.2rem;
+}
+
+
+/* carrousel */
+.carrousel{
+    width: 70%;
+    margin: 6vh auto;
+    align-items: center;
+}
+
+.imageCard{
+    height: 10vh;
+    position: relative;
+}
+
+.imageCard img{
+    width: 69.2vw;
+    background-size: cover;
+    height: 80vh;
+}
+
+.infos{
+    position:absolute;
+    z-index: 999;
+    bottom: 30px;
+    margin: 0 1rem;
+    color: white;
+}
+
+.infos .title{
+    background-color: #3498DB;
+    width: 20vw;
+    display: block;
+    padding: 0.22rem 1.15rem;
+    font-size: 1.35rem;
+
+}
+
+.infos .describe{
+    font-size: 1.25rem;
+    width: 40vw;
+    /* padding: 0 1.45rem; */
+
 }
